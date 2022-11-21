@@ -16,9 +16,9 @@ async function bootstrap() {
   }))
 
   const configSwagger = new DocumentBuilder()
-  .setTitle('Point of sale documentation')
-  .setDescription('Dokumentasi untuk api point of sale')
-  .setVersion('1.2')
+  .setTitle('Easyshop')
+  .setDescription('Dokumentasi untuk api Easyshop')
+  .setVersion('1.1')
   .addBearerAuth()
   .build()
 
