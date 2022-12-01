@@ -31,7 +31,7 @@ export class PenjualanService extends PageService {
   }
 
   async remove(id: number) {
-    let jual = await this.penjualanRepo.findOne(id)
+    const jual = await this.penjualanRepo.findOne(id)
     return this.penjualanRepo.remove(jual);
   }
 }
